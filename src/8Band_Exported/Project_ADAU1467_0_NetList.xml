@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- * 
+ * This software is distributed in the hope that it will be useful, 
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
+ * CONDITIONS OF ANY KIND, without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ * 
+ * Copyright ©2024 Analog Devices, Inc. All rights reserved.
+ * 
+-->
+<!--NetList XML file-->
+<IC name="ADAU1467_0" partnumber="ADAU1467">
+  <Core name="ADAU146xCore_0">
+    <Schematic name="ADAU146xSchematic_0">
+      <Algorithm name="Safeload" friendlyname="Schematic Params" />
+      <Algorithm name="Input0to15_0" friendlyname="Input SDATA0">
+        <Link pin="Ch0_out" dir="out" link="Link_51" id="Link_51" />
+        <Link pin="Ch1_out" dir="out" link="Link_52" id="Link_52" />
+      </Algorithm>
+      <Algorithm name="SPDIFOutput_1" friendlyname="SPDIF Output">
+        <Link pin="Output" dir="in" link="Link_53" id="Link_53" />
+      </Algorithm>
+      <Algorithm name="SPDIFOutput_2" friendlyname="SPDIF Output">
+        <Link pin="Output" dir="in" link="Link_54" id="Link_54" />
+      </Algorithm>
+      <Algorithm name="GenSecondOrder_7" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc.">
+        <Link pin="Input0" dir="in" link="Link_51" id="Link_51" />
+        <Link pin="Input1" dir="in" link="Link_52" id="Link_52" />
+        <Link pin="Output0" dir="out" link="Link_53" id="Link_53" />
+        <Link pin="Output1" dir="out" link="Link_54" id="Link_54" />
+        <Link pin="Output0" dir="out" link="Link_53" id="Link_55" />
+        <Link pin="Output1" dir="out" link="Link_54" id="Link_56" />
+      </Algorithm>
+      <Algorithm name="Output_3" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_53" id="Link_55" />
+      </Algorithm>
+      <Algorithm name="Output_4" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_54" id="Link_56" />
+      </Algorithm>
+    </Schematic>
+  </Core>
+</IC>

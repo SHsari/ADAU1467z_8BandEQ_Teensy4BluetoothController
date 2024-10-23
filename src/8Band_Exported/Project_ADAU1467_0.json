@@ -1,0 +1,4000 @@
+{
+  "Processor": {
+    "Name": "ADAU1467_0",
+    "Label": "ADAU1467_0",
+    "PartNumber": "ADAU1467",
+    "Core": [
+      {
+        "Name": "ADAU146xCore_0",
+        "Label": "ADAU146xCore_0",
+        "CoreID": 0,
+        "Schematic": [
+          {
+            "Name": "ADAU146xSchematic_0",
+            "Label": "ADAU146xSchematic_0",
+            "InstanceID": 0,
+            "Meta": [],
+            "Register": [
+              {
+                "Name": "__SafeLoad_Module__data_SafeLoad",
+                "Size": 20,
+                "Data": "0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "__SafeLoad_Module__address_SafeLoad",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "__SafeLoad_Module__num_SafeLoad_lower",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "__SafeLoad_Module__num_SafeLoad_upper",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "SPI Toggle",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "SPI Toggle Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "SPI Toggle",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "SPI Toggle Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "SPI Toggle",
+                "Size": 4,
+                "Data": "0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "SPI Toggle Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "SECOND_PAGE_ENABLE",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "SECOND_PAGE_ENABLE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "SOFT_RESET",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "SOFT_RESET",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "Reset Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "HIBERNATE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "HIBERNATE",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "Hibernate Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "KILL_CORE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "KILL_CORE",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "PLL_ENABLE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "PLL_CTRL1 Register",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "PLL_CLK_SRC Register",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "MCLK_OUT Register",
+                "Size": 2,
+                "Data": "0x00, 0x05"
+              },
+              {
+                "Name": "PLL_ENABLE Register",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "PLL Lock Delay",
+                "Size": 2,
+                "Data": "0x00, 0xFF"
+              },
+              {
+                "Name": "POWER_ENABLE0 Register",
+                "Size": 2,
+                "Data": "0x1F, 0xFF"
+              },
+              {
+                "Name": "POWER_ENABLE1 Register",
+                "Size": 2,
+                "Data": "0x00, 0x1F"
+              },
+              {
+                "Name": "ASRC_INPUT0",
+                "Size": 2,
+                "Data": "0x00, 0x03"
+              },
+              {
+                "Name": "ASRC_OUT_RATE0",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "SOUT_SOURCE0",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE1",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE2",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE3",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE4",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE5",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE6",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE7",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE8",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE9",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE10",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE11",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE12",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE13",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE14",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE15",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE16",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE17",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE18",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE19",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE20",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE21",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE22",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SOUT_SOURCE23",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "SPDIFTX_INPUT",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "SERIAL_BYTE_1_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_2_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_3_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_4_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_5_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_6_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SERIAL_BYTE_7_0",
+                "Size": 2,
+                "Data": "0x90, 0x00"
+              },
+              {
+                "Name": "SPDIF_RESTART",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "SPDIF_TX_EN",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "DM0 Data",
+                "Size": 272,
+                "Data": "0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x14, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "DM1 Data",
+                "Size": 224,
+                "Data": "0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00"
+              },
+              {
+                "Name": "KILL_CORE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "START_ADDRESS",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "START_PULSE",
+                "Size": 2,
+                "Data": "0x00, 0x02"
+              },
+              {
+                "Name": "START_CORE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              },
+              {
+                "Name": "START_CORE",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "Start Delay",
+                "Size": 2,
+                "Data": "0x00, 0x01"
+              },
+              {
+                "Name": "HIBERNATE",
+                "Size": 2,
+                "Data": "0x00, 0x00"
+              }
+            ],
+            "Program": [
+              {
+                "Name": "Program Data",
+                "Size": 540,
+                "Data": "0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0x0A, 0x21, 0x00, 0x12, 0x08, 0x00, 0x00, 0x10, 0x01, 0x00, 0x00, 0x14, 0x06, 0x40, 0x40, 0x10, 0x0A, 0x21, 0x00, 0x16, 0x08, 0x00, 0x00, 0x14, 0x01, 0x00, 0x00, 0x18, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x2B, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x26, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x14, 0x08, 0x9A, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x00, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x23, 0x00, 0x06, 0x0A, 0x2B, 0x00, 0x07, 0x00, 0x88, 0x20, 0x00, 0x0A, 0xA7, 0x00, 0x05, 0x00, 0x00, 0x00, 0x22, 0xC0, 0x00, 0x2D, 0x30, 0x80, 0x00, 0x50, 0x00, 0x30, 0x00, 0xB4, 0x6A, 0x00, 0x88, 0x20, 0x00, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x02, 0x09, 0x00, 0x4C, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x24, 0x00, 0x8C, 0x2A, 0x02, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x84, 0x0D, 0x9C, 0x00, 0x20, 0x0B, 0x2D, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x4A, 0x06, 0x00, 0x50, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2B, 0x00, 0x06, 0x09, 0x2B, 0x00, 0x07, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0xFC, 0x40, 0x06, 0x40, 0x10, 0x0E, 0x0C, 0x00, 0xFC, 0x41, 0x06, 0x40, 0x10, 0x1E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x04, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1D, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x18, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x08, 0x05, 0x0C, 0x10, 0x0E, 0x05, 0x2C, 0x10, 0x1E, 0xFC, 0x74, 0x80, 0x00, 0x80, 0x02, 0x09, 0xC3, 0xE0, 0x3A, 0x80, 0x00, 0x80, 0x00, 0x01, 0x22, 0xF0, 0x68, 0x80, 0x0B, 0x88, 0x02, 0x3D, 0xC2, 0x03, 0x04, 0x00, 0x6E, 0xE0, 0xA1, 0x00, 0x07, 0x8C, 0x0A, 0x05, 0x22, 0xFA, 0x64, 0xE8, 0x4F, 0x88, 0x83, 0xC7, 0x22, 0xF4, 0x66, 0xE8, 0xC3, 0x88, 0x83, 0xC5, 0x3E, 0xE2, 0xA5, 0x00, 0x07, 0x8C, 0x8A, 0x05, 0x22, 0xF1, 0x74, 0xE0, 0x4F, 0x88, 0x02, 0x05, 0xC3, 0xF0, 0x68, 0xE0, 0xCB, 0x88, 0x02, 0x3D, 0xC2, 0xE0, 0xA1, 0x00, 0x00, 0x80, 0x00, 0x00, 0x20, 0x05, 0x4C, 0x10, 0x3E, 0x05, 0x6C, 0x10, 0x2E, 0x06, 0x00, 0x10, 0x2E, 0x0D, 0x00, 0xFC, 0xC1, 0x06, 0x00, 0x10, 0x3E, 0x0D, 0x00, 0xFC, 0xC0, 0x06, 0x00, 0x10, 0x2E, 0x0D, 0x00, 0xFC, 0xF1, 0x06, 0x00, 0x10, 0x3E, 0x0D, 0x00, 0xFC, 0xF0, 0x08, 0x80, 0x00, 0x10, 0x08, 0x82, 0x00, 0x14, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x01, 0x09, 0x80, 0x00, 0x10, 0x09, 0x82, 0x00, 0x14, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00"
+              }
+            ],
+            "Parameter": [],
+            "ModuleList": [
+              {
+                "AlgoName": "Safeload",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "",
+                "CoreID": 0,
+                "Description": "Schematic Params",
+                "Address": 0,
+                "Caption": "Schematic Params",
+                "ModuleParameter": [
+                  {
+                    "Name": "Data_SafeLoad0",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24576,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Data_SafeLoad1",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24577,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Data_SafeLoad2",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24578,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Data_SafeLoad3",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24579,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Data_SafeLoad4",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24580,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Addr_SafeLoad",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24581,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Num_SafeLoad_Lower",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24582,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": false,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Num_SafeLoad_Upper",
+                    "Type": "Numeric",
+                    "DataType": "Integer32",
+                    "Offset": 0,
+                    "Address": 24583,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": false,
+                    "SafeLoadGroup": "",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  }
+                ],
+                "AbstractParameter": []
+              },
+              {
+                "AlgoName": "Input0to15_0",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.Input0to15_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "Input SDATA0",
+                "Address": 0,
+                "Caption": "Input 0-15",
+                "ModuleParameter": [],
+                "AbstractParameter": []
+              },
+              {
+                "AlgoName": "SPDIFOutput_1",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.Sigma300.SPDIFOutput_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "SPDIF Output",
+                "Address": 0,
+                "Caption": "SPDIF Output",
+                "ModuleParameter": [],
+                "AbstractParameter": []
+              },
+              {
+                "AlgoName": "SPDIFOutput_2",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.Sigma300.SPDIFOutput_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "SPDIF Output",
+                "Address": 0,
+                "Caption": "SPDIF Output",
+                "ModuleParameter": [],
+                "AbstractParameter": []
+              },
+              {
+                "AlgoName": "GenSecondOrder_7",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "Gives access to a variety of Second Order IIR filter algorithms.\n Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc.",
+                "Address": 0,
+                "Caption": "General EQ",
+                "ModuleParameter": [
+                  {
+                    "Name": "Stage0_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 0,
+                    "Address": 26,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage0_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 1,
+                    "Address": 25,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage0_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 2,
+                    "Address": 24,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage0_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 3,
+                    "Address": 28,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage0_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 4,
+                    "Address": 27,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage1_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 5,
+                    "Address": 24586,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage1_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 6,
+                    "Address": 24585,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage1_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 7,
+                    "Address": 24584,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage1_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 8,
+                    "Address": 24588,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage1_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 9,
+                    "Address": 24587,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage2_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 10,
+                    "Address": 31,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage2_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 11,
+                    "Address": 30,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage2_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 12,
+                    "Address": 29,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage2_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 13,
+                    "Address": 33,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage2_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 14,
+                    "Address": 32,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage3_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 15,
+                    "Address": 24591,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage3_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 16,
+                    "Address": 24590,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage3_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 17,
+                    "Address": 24589,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage3_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 18,
+                    "Address": 24593,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage3_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 19,
+                    "Address": 24592,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage4_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 20,
+                    "Address": 36,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage4_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 21,
+                    "Address": 35,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage4_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 22,
+                    "Address": 34,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage4_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 23,
+                    "Address": 38,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage4_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 24,
+                    "Address": 37,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage5_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 25,
+                    "Address": 24596,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage5_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 26,
+                    "Address": 24595,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage5_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 27,
+                    "Address": 24594,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage5_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 28,
+                    "Address": 24598,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage5_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 29,
+                    "Address": 24597,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage6_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 30,
+                    "Address": 41,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage6_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 31,
+                    "Address": 40,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage6_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 32,
+                    "Address": 39,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage6_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 33,
+                    "Address": 43,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage6_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 34,
+                    "Address": 42,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 1
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage7_B0",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 35,
+                    "Address": 24601,
+                    "AddrIncr": 4,
+                    "Value": 1.0,
+                    "Size": 4,
+                    "Data": "0x01, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage7_B1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 36,
+                    "Address": 24600,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage7_B2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 37,
+                    "Address": 24599,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage7_A1",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 38,
+                    "Address": 24603,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Stage7_A2",
+                    "Type": "Numeric",
+                    "DataType": "FixPoint8d24",
+                    "Offset": 39,
+                    "Address": 24602,
+                    "AddrIncr": 4,
+                    "Value": 0.0,
+                    "Size": 4,
+                    "Data": "0x00, 0x00, 0x00, 0x00",
+                    "IsTable": false,
+                    "IsSafeLoad": true,
+                    "SafeLoadGroup": "FilterCoeffs",
+                    "AddressInfoProperties": [
+                      {
+                        "Name": "Data Memory",
+                        "Description": "",
+                        "Value": 2
+                      },
+                      {
+                        "Name": "Mem Page",
+                        "Description": "",
+                        "Value": 0
+                      }
+                    ]
+                  }
+                ],
+                "AbstractParameter": [
+                  {
+                    "SimpleName": null,
+                    "Name": "AllFilterTypesList",
+                    "Tunable": false,
+                    "Value": "Parametric",
+                    "Type": "List"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "FilterTypesList",
+                    "Tunable": false,
+                    "Value": "Parametric",
+                    "Type": "List"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "FS",
+                    "Tunable": false,
+                    "Value": "44100",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "NumStages",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage0_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage1_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage2_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage3_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage4_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage5_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage6_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Boost",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_BoostT",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_BoostB",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_FrequencyEnabled",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Frequency",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Frequency2",
+                    "Tunable": false,
+                    "Value": "1000",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Q",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Slope",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Bandwidth",
+                    "Tunable": false,
+                    "Value": "1.41",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Ripple",
+                    "Tunable": false,
+                    "Value": "0.1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_FilterType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_EnabledOrBypassed",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Phase",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_LockFrequency",
+                    "Tunable": false,
+                    "Value": "False",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Filter1Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Filter2Gain",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_FirstFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_SecondFilterActive",
+                    "Tunable": false,
+                    "Value": "True",
+                    "Type": "Boolean"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Filter1FirstOrderType",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_Filter2FirstOrderType",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_B0",
+                    "Tunable": false,
+                    "Value": "1",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_B1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_B2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_A1",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  },
+                  {
+                    "SimpleName": null,
+                    "Name": "Stage7_A2",
+                    "Tunable": false,
+                    "Value": "0",
+                    "Type": "Numeric"
+                  }
+                ]
+              },
+              {
+                "AlgoName": "Output_3",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "Output",
+                "Address": 0,
+                "Caption": "Output",
+                "ModuleParameter": [],
+                "AbstractParameter": []
+              },
+              {
+                "AlgoName": "Output_4",
+                "SampleRate": 48000,
+                "ParameterComputeName": "",
+                "DetailedName": "AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0",
+                "CoreID": 0,
+                "Description": "Output",
+                "Address": 0,
+                "Caption": "Output",
+                "ModuleParameter": [],
+                "AbstractParameter": []
+              }
+            ],
+            "AddressMap": {
+              "GenSecondOrder_7Stage0_B2": {
+                "Address": 24,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage0_B1": {
+                "Address": 25,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage0_B0": {
+                "Address": 26,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage0_A2": {
+                "Address": 27,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage0_A1": {
+                "Address": 28,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage2_B2": {
+                "Address": 29,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage2_B1": {
+                "Address": 30,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage2_B0": {
+                "Address": 31,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage2_A2": {
+                "Address": 32,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage2_A1": {
+                "Address": 33,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage4_B2": {
+                "Address": 34,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage4_B1": {
+                "Address": 35,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage4_B0": {
+                "Address": 36,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage4_A2": {
+                "Address": 37,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage4_A1": {
+                "Address": 38,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage6_B2": {
+                "Address": 39,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage6_B1": {
+                "Address": 40,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage6_B0": {
+                "Address": 41,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage6_A2": {
+                "Address": 42,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage6_A1": {
+                "Address": 43,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7state1": {
+                "Address": 44,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7stateOut1": {
+                "Address": 62,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 1
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage1_B2": {
+                "Address": 24584,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage1_B1": {
+                "Address": 24585,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage1_B0": {
+                "Address": 24586,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage1_A2": {
+                "Address": 24587,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage1_A1": {
+                "Address": 24588,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage3_B2": {
+                "Address": 24589,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage3_B1": {
+                "Address": 24590,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage3_B0": {
+                "Address": 24591,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage3_A2": {
+                "Address": 24592,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage3_A1": {
+                "Address": 24593,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage5_B2": {
+                "Address": 24594,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage5_B1": {
+                "Address": 24595,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage5_B0": {
+                "Address": 24596,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage5_A2": {
+                "Address": 24597,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage5_A1": {
+                "Address": 24598,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage7_B2": {
+                "Address": 24599,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage7_B1": {
+                "Address": 24600,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage7_B0": {
+                "Address": 24601,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage7_A2": {
+                "Address": 24602,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7Stage7_A1": {
+                "Address": 24603,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7state0": {
+                "Address": 24608,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "GenSecondOrder_7stateOut0": {
+                "Address": 24626,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Data_SafeLoad0": {
+                "Address": 24576,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Data_SafeLoad1": {
+                "Address": 24577,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Data_SafeLoad2": {
+                "Address": 24578,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Data_SafeLoad3": {
+                "Address": 24579,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Data_SafeLoad4": {
+                "Address": 24580,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Addr_SafeLoad": {
+                "Address": 24581,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Num_SafeLoad_Lower": {
+                "Address": 24582,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              },
+              "Num_SafeLoad_Upper": {
+                "Address": 24583,
+                "AddressProperties": [
+                  {
+                    "Name": "Data Memory",
+                    "Description": "",
+                    "Value": 2
+                  },
+                  {
+                    "Name": "Mem Page",
+                    "Description": "",
+                    "Value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
